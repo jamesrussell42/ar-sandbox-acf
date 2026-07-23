@@ -1,0 +1,13 @@
+* text=auto
+
+*.exe binary
+*.dll binary
+*.zip binary
+*.7z binary
+*.png binary
+*.jpg binary
+
+*.md text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.sh text eol=lf

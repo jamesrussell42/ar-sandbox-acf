@@ -1,0 +1,47 @@
+# Build and compiled output
+bin/
+obj/
+*.exe
+*.dll
+*.lib
+*.o
+*.a
+*.so
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.user
+*.user
+*.aps
+
+# Dependencies (installed separately on each machine)
+openFrameworks/
+addons/
+
+# Build artifacts
+build/
+dist/
+*.zip
+*.tar.gz
+
+# Kinect calibration (per-machine, don't commit)
+calibration-data-*.xml
+
+# OS
+.DS_Store
+Thumbs.db
+.swp
+.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Temp files
+*.tmp
+*.bak
